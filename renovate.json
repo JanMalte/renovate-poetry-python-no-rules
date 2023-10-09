@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "baseBranches": ["main"],
+  "dependencyDashboard": true,
+  "separateMultipleMajor": true,
+  "separateMinorPatch": true,
+  "major": {
+    "dependencyDashboardApproval": true
+  },
+  "minor": {
+    "dependencyDashboardApproval": true
+  },
+  "patch": {
+    "dependencyDashboardApproval": true
+  }
+}
