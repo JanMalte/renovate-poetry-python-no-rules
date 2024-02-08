@@ -2,7 +2,7 @@
 name = "renovate-poetry-python-no-rules"
 
 [tool.poetry.dependencies]
-python = ">=3.9.0,<3.10"
+python = ">=3.12.2,<3.13"
 django = "==4.2.6"
 
 [build-system]
